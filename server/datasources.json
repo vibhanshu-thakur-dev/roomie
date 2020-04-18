@@ -1,0 +1,17 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongoDB": {
+    "host": "",
+    "port": 0,
+    "url": "mongodb+srv://viperwhiskey:root@cluster0-b1unx.gcp.mongodb.net/roomie?retryWrites=true&w=majority",
+    "database": "roomie",
+    "password": "",
+    "name": "mongoDB",
+    "user": "",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "matches",
+  "plural": "matches",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true,
+    "mongodb":{
+      "collection":"consumer"
+    }
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "age": {
+      "type": "number"
+    },
+    "dob": {
+      "type": "string"
+    },
+    "profilePicUrl": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "profession": {
+      "type": "string"
+    }
+  },
+  "excludeBaseProperties":[
+    "password"
+  ],
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
